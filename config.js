@@ -60,18 +60,19 @@ let SITE = {
   ],
 
   // ----------------------------------------------------------
-  // LAUFBAND unter dem Handy – LOGOS der Kunden
-  // 1. Logos (am besten PNG mit transparentem Hintergrund oder SVG)
-  //    in den Ordner "logos" hochladen
-  // 2. Dateinamen hier eintragen (genau gleich schreiben!)
-  // Fehlt ein Logo, wird automatisch der Name als Text gezeigt.
+  // LAUFBAND unter dem Handy – nur LOGOS (png, jpg oder svg)
+  // 1. Logos in den Ordner "logos" hochladen
+  // 2. Dateinamen hier eintragen – genau gleich schreiben!
   // Mehr Logos: einfach eine Zeile kopieren.
+  // Tipp: PNG/SVG mit transparentem Hintergrund werden einheitlich
+  //       hell eingefärbt, JPG bleibt in Originalfarben.
+  // Fehlt eine Datei, wird sie einfach weggelassen.
   // ----------------------------------------------------------
   marquee: [
-    { name: 'Ambiente Zaunbau',  logo: 'logos/ambiente-zaunbau.png' },
-    { name: 'F. Wilken & Sohn',  logo: 'logos/wilken-und-sohn.png' },
-    { name: 'Der Jurist',        logo: 'logos/der-jurist.png' },
-    { name: 'Teppana',           logo: 'logos/teppana.png' },
+    'logos/logo1.png',
+    'logos/logo2.png',
+    'logos/logo3.png',
+    'logos/logo4.png',
   ],
 
   // ----------------------------------------------------------
