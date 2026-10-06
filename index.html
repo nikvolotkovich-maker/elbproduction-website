@@ -3081,6 +3081,12 @@
     .ps-bar { width: 44px; }
     .ps-item { font-size: 9px; }
   }
+  /* Laufband: Logos einheitlich hell, beim Hover in Originalfarbe */
+  body .marquee-track { gap: 72px; animation-duration: 35s; }
+  body .marquee-wrapper:hover .marquee-track { animation-play-state: paused; }
+  body .marquee-logo img { max-height: 46px; max-width: 170px; filter: grayscale(1) brightness(0) invert(1); opacity: .6; transition: filter .3s ease, opacity .3s ease; }
+  body .marquee-logo:hover img { filter: none; opacity: 1; }
+  @media (max-width: 720px) { body .marquee-logo img { max-height: 34px; max-width: 120px; } body .marquee-track { gap: 44px; } }
 </style>
 </head>
 <body>
@@ -3707,7 +3713,7 @@
     const mq = document.getElementById('marqueeTrack');
     if (mq && Array.isArray(S.marquee) && S.marquee.length) {
       const item = m => m.logo
-        ? `<div class="marquee-item"><img src="${m.logo}" alt="${m.name || ''}" onerror="this.parentNode.remove()"></div>`
+        ? `<div class="marquee-item marquee-logo"><img src="${m.logo}" alt="${m.name || ''}" loading="lazy" onerror="this.outerHTML='<span class=&quot;marquee-text&quot;>${(m.name || '').replace(/'/g, '')}</span>'"></div>`
         : `<div class="marquee-item"><span class="marquee-text">${m.name}</span></div>`;
       const row = S.marquee.map(item).join('');
       mq.innerHTML = row + row + row + row;
