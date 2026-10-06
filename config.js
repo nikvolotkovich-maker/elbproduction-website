@@ -142,9 +142,9 @@ let SITE = {
   // likes/views/reach/saved = ECHTE Zahlen des jeweiligen Videos
   // ----------------------------------------------------------
   phoneVideos: [
-    { src: 'videos/video1.mp4', title: 'Viral\nContent', tag: 'Instagram Reel', sub: 'Hamburg · #trending', likes: '2.2K', views: '580K', reach: '124K', saved: '1.4K' },
-    { src: 'videos/video2.mp4', title: 'Starke\nMarke', tag: 'Brand Growth', sub: 'Wachstum · #branding', likes: '5.8K', views: '210K', reach: '380K', saved: '3.2K' },
-    { src: 'videos/video3.mp4', title: 'ROI\noptimiert', tag: 'Paid Ads', sub: 'Meta Ads · #performance', likes: '3.1K', views: '95K', reach: '240K', saved: '2.1K' },
+    { src: 'video1.mp4', title: 'Viral\nContent', tag: 'Instagram Reel', sub: 'Hamburg · #trending', likes: '2.2K', views: '580K', reach: '124K', saved: '1.4K' },
+    { src: 'video2.mp4', title: 'Starke\nMarke', tag: 'Brand Growth', sub: 'Wachstum · #branding', likes: '5.8K', views: '210K', reach: '380K', saved: '3.2K' },
+    { src: 'video3.mp4', title: 'ROI\noptimiert', tag: 'Paid Ads', sub: 'Meta Ads · #performance', likes: '3.1K', views: '95K', reach: '240K', saved: '2.1K' },
   ],
 
   beforeAfter: { enabled: false },
