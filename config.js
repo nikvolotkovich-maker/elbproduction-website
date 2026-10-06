@@ -87,11 +87,31 @@ let SITE = {
 
   // ----------------------------------------------------------
   // KUNDENSTIMMEN
-  // Leer = Abschnitt wird ausgeblendet.
-  // Nur echte Zitate mit Erlaubnis des Kunden eintragen, z. B.:
-  // { text: '„…"', name: 'Max Mustermann', role: 'Inhaber, Firma GmbH', initials: 'MM' },
+  // Die Texte in [eckigen Klammern] durch ECHTE Zitate ersetzen
+  // (nur mit Erlaubnis des Kunden). Die Klammern dabei mit löschen.
+  // Mehr Karten: einfach einen Block { … }, kopieren.
+  // Alle Blöcke löschen  →  testimonials: [],  = Abschnitt unsichtbar.
   // ----------------------------------------------------------
-  testimonials: [],
+  testimonials: [
+    {
+      text:     '„[Zitat Kunde 1 – z. B. was sich durch die Zusammenarbeit verändert hat]"',
+      name:     '[Vorname Nachname]',
+      role:     '[Position, Firma]',
+      initials: 'AB',
+    },
+    {
+      text:     '„[Zitat Kunde 2 – z. B. wie die Zusammenarbeit abläuft]"',
+      name:     '[Vorname Nachname]',
+      role:     '[Position, Firma]',
+      initials: 'CD',
+    },
+    {
+      text:     '„[Zitat Kunde 3 – z. B. welches Ergebnis es gab]"',
+      name:     '[Vorname Nachname]',
+      role:     '[Position, Firma]',
+      initials: 'EF',
+    },
+  ],
 
   // ----------------------------------------------------------
   // CTA-SEKTION
