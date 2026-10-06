@@ -3082,12 +3082,11 @@
     .ps-item { font-size: 9px; }
   }
   /* Laufband: Logos einheitlich hell, beim Hover in Originalfarbe */
-  body .marquee-track { gap: 72px; animation-duration: 35s; }
+   body .marquee-track { gap: 32px; animation-duration: 35s; }
   body .marquee-wrapper:hover .marquee-track { animation-play-state: paused; }
-  body .marquee-logo img { max-height: 46px; max-width: 170px; filter: grayscale(1) brightness(0) invert(1); opacity: .6; transition: filter .3s ease, opacity .3s ease; }
-  body .marquee-logo:hover img { filter: none; opacity: 1; }
-  body .marquee-logo.is-jpg img { filter: none; opacity: .85; border-radius: 6px; }
-  @media (max-width: 720px) { body .marquee-logo img { max-height: 34px; max-width: 120px; } body .marquee-track { gap: 44px; } }
+  body .marquee-logo { background: #FFFFFF; border-radius: 14px; padding: 12px 22px; height: 70px; }
+  body .marquee-logo img { max-height: 46px; max-width: 150px; filter: none; opacity: 1; }
+  @media (max-width: 720px) { body .marquee-logo { height: 54px; padding: 8px 16px; } body .marquee-logo img { max-height: 36px; max-width: 110px; } body .marquee-track { gap: 24px; } }
 </style>
 </head>
 <body>
