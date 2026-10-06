@@ -126,8 +126,8 @@ let SITE = {
   // CTA-SEKTION
   // ----------------------------------------------------------
   cta: {
-    titleLine1: 'Bereit für Ihren',
-    titleLine2: 'nächsten Level?',
+    titleLine1: 'Mehr Anfragen',
+    titleLine2: 'statt mehr Aufwand?',
     subtitle:   'Lassen Sie uns gemeinsam Ihre Social-Media-Präsenz auf das nächste Level bringen. Kostenloses Erstgespräch in Hamburg.',
     btn: 'Kostenloses Gespräch',
   },
