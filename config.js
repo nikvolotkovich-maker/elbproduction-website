@@ -60,17 +60,18 @@ let SITE = {
   ],
 
   // ----------------------------------------------------------
-  // LAUFBAND unter dem Handy (Kunden / Logos)
-  // name = Text, logo = Bild (z. B. 'logos/ambiente.png')
-  // Nur Firmen eintragen, für die du wirklich gearbeitet hast
-  // und die einverstanden sind.
+  // LAUFBAND unter dem Handy – LOGOS der Kunden
+  // 1. Logos (am besten PNG mit transparentem Hintergrund oder SVG)
+  //    in den Ordner "logos" hochladen
+  // 2. Dateinamen hier eintragen (genau gleich schreiben!)
+  // Fehlt ein Logo, wird automatisch der Name als Text gezeigt.
+  // Mehr Logos: einfach eine Zeile kopieren.
   // ----------------------------------------------------------
   marquee: [
-    { name: 'Ambiente Zaunbau' },
-    { name: 'F. Wilken & Sohn' },
-    { name: 'Der Jurist' },
-    { name: 'Teppana' },
-    // { name: 'Hankook', logo: 'logos/Hankook_logo_as_of_2019.png' },
+    { name: 'Ambiente Zaunbau',  logo: 'logos/ambiente-zaunbau.png' },
+    { name: 'F. Wilken & Sohn',  logo: 'logos/wilken-und-sohn.png' },
+    { name: 'Der Jurist',        logo: 'logos/der-jurist.png' },
+    { name: 'Teppana',           logo: 'logos/teppana.png' },
   ],
 
   // ----------------------------------------------------------
