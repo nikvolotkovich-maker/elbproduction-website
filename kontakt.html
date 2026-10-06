@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt – Elbproduction</title>
+<meta name="description" content="Kostenloses Erstgespräch vereinbaren – Videoproduktion für Handwerk aus Hamburg.">
+<meta property="og:title" content="Kontakt – Elbproduction">
+<meta property="og:description" content="Kostenloses Erstgespräch vereinbaren – Videoproduktion für Handwerk aus Hamburg.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="container nav" aria-label="Hauptnavigation">
+    <a href="/" class="logo">Elb<span>production</span></a>
+    <ul class="nav-links">
+      <li><a href="/">Start</a></li><li><a href="/leistungen">Leistungen</a></li><li><a href="/portfolio">Portfolio</a></li><li><a href="/ueber-mich">Über mich</a></li>
+      <li><a href="/kontakt" class="btn btn-primary nav-cta">Projekt anfragen</a></li>
+    </ul>
+    <button class="burger" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+<main>
+
+<section class="page-hero"><div class="container">
+  <div class="eyebrow">Kontakt</div>
+  <h1>Lassen Sie uns <span class="accent">sprechen.</span></h1>
+  <p>Erzählen Sie mir kurz von Ihrem Betrieb. Ich melde mich innerhalb von 24 Stunden.</p>
+</div></section>
+<section style="padding-top:20px"><div class="container split" style="align-items:start">
+  <form id="contact-form" class="form reveal" action="https://formspree.io/f/DEINE_FORM_ID" method="POST">
+    <div class="form-row">
+      <div class="field"><label for="name">Name *</label><input id="name" name="name" required autocomplete="name"></div>
+      <div class="field"><label for="firma">Firma</label><input id="firma" name="firma" autocomplete="organization"></div>
+    </div>
+    <div class="form-row">
+      <div class="field"><label for="email">E-Mail *</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+      <div class="field"><label for="tel">Telefon</label><input id="tel" name="telefon" type="tel" autocomplete="tel"></div>
+    </div>
+    <div class="field"><label for="interesse">Interesse an</label>
+      <select id="interesse" name="interesse">
+        <option>Videoproduktion</option><option>Social Media Betreuung</option><option>Recruiting-Content</option><option>Strategie &amp; Beratung</option><option>Noch unsicher</option>
+      </select></div>
+    <div class="field"><label for="nachricht">Nachricht *</label><textarea id="nachricht" name="nachricht" required></textarea></div>
+    <label class="checkbox"><input type="checkbox" required> <span>Ich habe die <a href="/datenschutz">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung der Anfrage zu. *</span></label>
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+    <div><button class="btn btn-primary" type="submit">Anfrage senden <span class="arrow">→</span></button></div>
+    <div class="form-status" role="status"></div>
+  </form>
+  <div class="reveal">
+    <h2 style="font-size:2rem">Lieber direkt?</h2>
+    <p class="muted">Rufen Sie an, schreiben Sie eine E-Mail oder eine DM auf Instagram.</p>
+    <div class="contact-list">
+      <a class="contact-item" href="mailto:hallo@elbproduction.de"><div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></div><div><small>E-Mail</small>hallo@elbproduction.de</div></a>
+      <a class="contact-item" href="tel:+490000000000"><div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></div><div><small>Telefon / WhatsApp</small>+49 000 0000000</div></a>
+      <a class="contact-item" href="https://instagram.com/elbproduction" target="_blank" rel="noopener"><div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></div><div><small>Instagram</small>@elbproduction</div></a>
+      <div class="contact-item"><div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><small>Standort</small>Hamburg · Einsatz im ganzen Norden</div></div>
+    </div>
+  </div>
+</div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="/" class="logo">Elb<span>production</span></a>
+        <p class="muted" style="margin-top:14px;max-width:34ch">Videoproduktion &amp; Social Media für Handwerk und Bau. Aus Hamburg, für den DACH-Raum.</p>
+      </div>
+      <div><h4>Seiten</h4><ul><li><a href="/">Start</a></li><li><a href="/leistungen">Leistungen</a></li><li><a href="/portfolio">Portfolio</a></li><li><a href="/ueber-mich">Über mich</a></li><li><a href="/kontakt">Kontakt</a></li></ul></div>
+      <div><h4>Kontakt</h4><ul><li><a href="mailto:hallo@elbproduction.de">hallo@elbproduction.de</a></li><li><a href="tel:+490000000000">+49 000 0000000</a></li><li><a href="https://instagram.com/elbproduction" target="_blank" rel="noopener">Instagram</a></li></ul></div>
+      <div><h4>Rechtliches</h4><ul><li><a href="/impressum">Impressum</a></li><li><a href="/datenschutz">Datenschutz</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© <span data-year>2026</span> Elbproduction</span><span>Made in Hamburg</span></div>
+  </div>
+</footer>
+<script src="/assets/main.js" defer></script>
+</body>
+</html>
