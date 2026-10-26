@@ -106,13 +106,13 @@ let SITE = {
       text:     '„Die Zusammenarbeit mit Elbproduction mit Nik läuft immer unkompliziert und professionell. Schnelle, klare Absprachen und eine hervorragende Videoqualität machen die Zusammenarbeit besonders angenehm. Absolut empfehlenswert!"',
       name:     'Christian Waske',
       role:     'Geschäftsführer – Golden Web Age GmbH',
-      initials: 'AB',
+      initials: 'CW',
     },
     {
       text:     '„Nik überzeugtdurch seine kreativen Ideen und hochwertige Ergebnisse. Er versteht es, Vorstellungen visuell umzusetzen und Content zu produzieren, der professionell wirkt und im Gedächtnis bleibt. Besonders schätze ich seinen Blick fürs Detail und sein Gespür für moderne, wirkungsvolle Videos."',
       name:     'Arnold Asenso Hoeling',
       role:     'Geschäftsführer – TrustKompass',
-      initials: 'CD',
+      initials: 'AH',
     },
     {
       text:     '„[Zitat Kunde 3 – z. B. welches Ergebnis es gab]"',
