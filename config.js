@@ -103,9 +103,9 @@ let SITE = {
   // ----------------------------------------------------------
   testimonials: [
     {
-      text:     '„[Zitat Kunde 1 – z. B. was sich durch die Zusammenarbeit verändert hat]"',
-      name:     '[Vorname Nachname]',
-      role:     '[Position, Firma]',
+      text:     '„Die Zusammenarbeit mit Elbproduction mit Nik läuft immer unkompliziert und professionell. Schnelle, klare Absprachen und eine hervorragende Videoqualität machen die Zusammenarbeit besonders angenehm. Absolut empfehlenswert!"',
+      name:     'Christian Waske',
+      role:     'Geschäftsführer – Golden Web Age GmbH',
       initials: 'AB',
     },
     {
