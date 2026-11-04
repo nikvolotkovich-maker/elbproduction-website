@@ -224,7 +224,10 @@ body .process-detail-card.swap-in .process-detail-list li:nth-child(5) { animati
   width: max-content !important;
   animation: backstageScroll 28s linear infinite;
 }
-@keyframes backstageScroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+@keyframes backstageScroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
 .backstage-slide {
   flex: 0 0 280px !important;
   width: 280px !important;
